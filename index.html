@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Langar&family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- StyleSheet -->
+  <link rel="stylesheet" href="style.css" />
+  <title>NeuroDig</title>
+</head>
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="description">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">NeuroDig</a>
+        <a href="login/login.html"><img src="../Cl00_Julyan/login/icon login.png"></a>
+      </div>
+      <div class="header-links">
+        <div class="two columns u-pull-right">
+          <ul>
+            <li class="submenu">
+              <img src="../Cl00_Julyan/images/icon carrinho.png" id="img-carrinho">
+              <div id="carrinho">
+                <table id="lista-carrinho" class="u-full-width">
+                  <thead>
+                    <tr>
+                      <th>Imagem</th>
+                      <th>Nome</th>
+                      <th>Valor</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="esvaziar-carrinho" class="button u-full-width">Esvaziar Carrinho</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Escolha a Categoria</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Implantes Cibernético</a>
+        </li>
+        <li>
+          <a href="index.html">Melhorias de Hardware</a>
+        </li>
+      </ul>
+    </aside>
+    <div id="lista-produtos">
+      <div class="produtos__container">
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\Microdisplay.jpg" class="imagem__produto">
+            <div class="info__card">
+             <h4><a href="product03.html"> Microdisplay Bidirecional de Rastreamneto Visual</a></h4> 
+              <div class="product-description">Dispositivo que através de uma tela transparente é capaz de exibir informações específicas por meio de realidade aumentada.</div>
+              
+              <p><span class="valor">R$ 31.000</span> <span class="desconto">R$ 21.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="1"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\Subt.Musculo.jpg" class="imagem__produto">
+            <div class="info__card">
+              <h4><a href="product03.html">Substituição de Músculos</h4></a>
+              <div class="product-description">Sistema de músculos recarregáveis a partir de aparelhos de energia externos ao corpo.</div>
+              
+              <p><span class="valor">R$ 100.000</span> <span class="desconto">R$ 70.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="2"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\Polegar eletrônico.jpg" class="imagem__produto">
+            <div class="info__card">
+              <h4><a href="product03.html">Polegar eletrônico</h4></a>
+              <div class="product-description">Aparelho capaz de mandar uma mensagem intergalactica.</div>
+              
+              <p><span class="valor">R$ 11.000</span> <span class="desconto">R$ 10.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="3"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\chip RFID.jpg" class="imagem__produto">
+            <div class="info__card">
+              <h4><a href="product03.html">Chip RFID</h4></a>
+              <div class="product-description">Chip que utiliza a identificação por Rádio Frequência</div>
+              
+              <p><span class="valor">R$ 120.000</span> <span class="desconto">R$ 100.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="4"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\implantes cerebrais.jpg" class="imagem__produto">
+            <div class="info__card">
+              <h4><a href="product03.html">Implantes cerebrais</h4></a>
+              <div class="product-description">Implantes cerebrais que permitem enxergar as conexões sem fio ao seu redor e acessar eletrônicos com a mente.</div>
+              
+              <p><span class="valor">R$ 2.010.000</span> <span class="desconto">R$ 2.000.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="5"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+
+        <div class="produto__item">
+          <div class="produto__card">
+            <img src="C:\Users\eline\OneDrive\Área de Trabalho\Julyan\images\Flat Scope.jpg" class="imagem__produto">
+            <div class="info__card">
+              <h4><a href="product03.html">Flat Scope</h4></a>
+              <div class="product-description">Chip implantado entre o crânio e o córtex cerebral para identificar e estimular neurônios.</div>
+              
+              <p><span class="valor">R$ 705.020</span> <span class="desconto">R$ 700.000</span>  </p>
+              <a href="#" class="adicionar-carrinho" data-id="6"><i class="fa fa-cart-plus"></i>&nbsp;  Adicionar ao carrinho</a>
+            </div>
+          </div> <!--.card-->
+        </div>
+        </div>
+      </div>
+      <div>
+      <footer class="footer">
+        contatos  -- Informações.
+      </footer>
+    </div>
+    </div>
+  </div>
+
+  <!--JavaScript-->
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+  <script src="../Cl00_Julyan/carrinho/app.js"></script>
+</body>
+</html>

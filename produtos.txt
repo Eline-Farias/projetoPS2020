@@ -1,0 +1,82 @@
+1. O dispositivo conta com uma pequena tela OLED transparente, capaz de exibir informações específicas por meio de realidade aumentada. O conteúdo projetado na tela é refletido diretamente no globo ocular, fazendo com que o usuário veja com nitidez dados específicos relativos ao ambiente.
+
+
+2. De acordo com Rossiter, o plano do emPOWER é criar um sistema de músculos recarregáveis a partir de aparelhos de energia externos ao corpo. O implante tornaria esses tecidos robóticos capazes de, por exemplo, dialogar com partes internas do organismo, como o sistema nervoso.
+
+O desenvolvimento de músculos artificiais pode ajudar na criação de novos tratamentos para a sarcopenia. Crédito:Universidade de Bristol/Divulgação
+Em termos científicos, isso significa que os músculos artificiais serão biocompatíveis, podendo se integrar com os órgãos não-robóticos. Um exemplo seriam músculos biônicos que reagem com o tecido ósseo natural e ajudam a coordenar os movimentos de um paciente com dificuldades de andar.
+Tal possibilidade pode ajudar a desenvolver opções novas de tratamentos para doenças como a sarcopenia, condição atrelada à velhice que consiste no desgaste muscular e na perda da musculatura esquelética. Atualmente, os modos mais populares de combater esse problema são externos, como o uso de aparelhos ortopédicos, tais como órteses.
+Esses dispositivos médicos, além de removíveis e temporários, podem muitas vezes ter efeitos colaterais, desgastando ainda mais os tecidos musculares em alguns casos. A possibilidade de um implante artificial, portanto, pode mudar esse cenário, que ainda é limitado em alternativas e afeta cerca de 20% das pessoas com mais de 75 anos, segundo a SBGG (Sociedade Brasileira de Geriatria e Gerontologia).
+
+
+
+
+
+
+3. O polegar eletrônico
+A lendária série de Douglas Adams, O Guia do Mochileiro das Galáxias, traz uma forma curiosa de pegar carona com um alienígena: usar um polegar eletrônico. Segundo Adams, existe um canal de comunicação chamado rede de sub-éter. O polegar eletrônico entra nessa rede e capta sinais de espaçonaves próximas para conseguir uma carona. Devido às várias versões de Adams, ainda não se sabe bem como é o funcionamento do polegar: ele provavelmente faz com que o piloto da nave dê permissão ao mochileiro antes que eles entrem no veículo utilizando um raio de transferência de matéria.
+
+Seria bastante útil ter um polegar eletrônico para conseguir caronas de aliens que circulam por aí. Mas, incrivelmente, isso ainda não foi possível.
+
+
+
+4.Implante em seres humanos
+
+Há muita controvérsia – e com razão! – quando o assunto é implante de chips em seres humanos. Isso porque se por um lado um chip poderá facilitar a realização de pagamentos, diagnósticos médicos e também a localização de vítimas de sequestros, por exemplo, por outro esta tecnologia pode ser usada para espionagem e invasão de privacidade de qualquer um.
+
+O RFID pode ser usado como ferramenta de controle social!Um bom exemplo disso é o caso de propagandas direcionadas ao cliente, algo semelhante ao que ocorre no filme Minority Report – A nova lei, de Steven Spielberg (EUA, 2002).
+
+Na película, o personagem do ator Tom Cruise, ao entrar em uma loja, torna-se “alvo” de várias propagandas direcionadas a ele, baseadas em informações sobre ele presentes em um banco de dados. Trazendo isso para a vida real, seria um caso claro de invasão de privacidade.
+
+Além disso, métodos como estes de prestação de informações pode ser também uma ferramenta de controle social por parte de Governos, empresas e empresários ao redor do mundo. Desta forma, grupos que manifestam sua insatisfação com uma guerra ou então lutam por direitos sociais e humanos poderão facilmente ser identificados e reprimidos, o que seria, além de espionagem, um duro golpe às lutas democráticas.
+
+Obstáculos ao uso da RFID
+
+Baterias de baixo rendimento
+
+Outro problema é a vida útil de uma bateria para etiquetas ativas de RFID, que ainda é muito curta, o que geraria um certo transtorno ao invés de comodidade, pois ela precisaria ser reposta em pouco tempo. Além disso, isso impede também o desenvolvimento de processos mais elaborados utilizando a RFID, o que demandaria ainda mais energia de seus dispositivos.
+Como funciona?
+
+Um sistema de RFID é composto, basicamente, de uma antena, um transceptor, que faz a leitura do sinal e transfere a informação para um dispositivo leitor, e também um transponder ou etiqueta de RF (rádio frequência), que deverá conter o circuito e a informação a ser transmitida.  Estas etiquetas podem estar presentes em pessoas, animais, produtos, embalagens, enfim, em equipamentos diversos.
+
+
+
+5.Hackeando o mundo por telepatia
+"Cyberpunk 2077" introduz o conceito de cyberdecks: implantes cerebrais que permitem ao usuário enxergar as conexões sem fio ao seu redor e hackear eletrônicos com a mente. Dá para desabilitar uma câmera de segurança em ações furtivas ou só mapear a circulação de inimigos num ambiente hostil.
+
+Na vida real, porém, estamos longe de controlar eletrônicos com o poder da mente. O mais próximo que estamos desse cenário é o trabalho da Neuralink, uma empresa norte-americana fundada por Elon Musk —presidente da Tesla, a pioneira em carros elétricos e semi-autônomos. O objetivo é "desenvolver interfaces neurais" que conectem o cérebro humano a máquinas, criando "aparelhos que ajudarão pessoas com paralisia" e "novas tecnologias que irão expandir nossas habilidades, nossa comunidade e nosso mundo", segundo a empresa em seu site oficial.
+
+É tudo meio nebuloso e nada de concreto foi mostrado até hoje. Em agosto, Musk fez uma demonstração tímida da tecnologia da Neuralink apresentando um chip implantado no crânio de um porco. Ele conseguia registrar os sinais do focinho do bicho enquanto farejava. O teste provou que é possível digitalizar e observar pequenos movimentos de neurônios dentro do cérebro, mas ainda é um começo nessa estrada.
+
+Os primeiros testes com humanos serão feitos em paraplégicos e tetraplégicos voluntários. A ideia é que o usuário consiga, com o pensamento, "digitar" textos, controlar o computador e atender o telefone. Mas hackear o wi-fi do vizinho ainda é coisa de videogame.
+
+
+6.A ideia é fazer com que uma proteína modifique neurônios e os faça ficarem luminosos quando ativados. A interface óptica do microscópio conseguiria identificá-los e estimulá-los. "Estamos adotando uma abordagem totalmente ótica em que o microscópio pode ser capaz de visualizar um milhão de neurônios".
+
+
+
+
+Fazer o link entre os arquivos html e javascript
+Adicionar <script src="arquivo.js"></script> ao head do html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

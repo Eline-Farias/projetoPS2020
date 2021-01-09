@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <meta charset="UTF-8">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Langar&family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:300,400,500,700,600" />
+   <!-- StyleSheet -->
+   <link rel="stylesheet" href="style.css" />
+   <title>NeuroDig</title>
+</head>
+<body>
+
+    <div class="grid-container">
+        <header class="header">
+          <div class="description">
+            <a href="index.html">NeuroDig</a>
+          </div>
+          <div class="header-links">
+            <a href="login/login.html"><img src="login/icon login.png"></a>
+            <a href="/carrinho/CarIndex.html"><img src="images/icon carrinho.png"></a>
+          </div>
+        </header>
+    <div class="TabControl">
+        <div id="header">
+            <ul class="abas">
+                <li>
+                    <div class="aba">
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="aba">
+                        <span>Recomendações de uso</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="aba">
+                        <span>Avaliações</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div class="conteudo">
+                <p><strong>Microdisplay Bidirecional de Rastreamneto Visual</strong></p>
+                <p>O dispositivo conta com uma pequena tela OLED transparente, capaz de exibir informações específicas por meio de realidade aumentada. O conteúdo projetado na tela é refletido diretamente no globo ocular, fazendo com que o usuário veja com nitidez dados específicos relativos ao ambiente.</p>
+            </div>
+            <div class="conteudo">
+                <ul>
+                    <li><dt>Indicações</dt>
+                        <dd>Trabalhos de espionagens;</dd>
+                        <dd>Necessário reconhecimento Facial a partir da base de dados da rede social.</dd>
+                    </li> 
+
+                    <li> <dt>Contraindicações</dt>
+                        <dd>Falta de privacidade.</dd>
+                    </li> 
+
+                    <li> <dt>Duração do procedimento</dt>
+                        <dd>30 minutos.<dd>
+                    </li>
+                </ul>
+            </div>
+            <div class="conteudo">
+               <p><strong>formulário de avaliação</p></strong>
+               </div>
+        </div>
+    </div>
+    </div>
+</body>
+        <footer class="footer">
+            contatos  -- Informações.
+        </footer>
+
+
+<!--Parte Css-->
+<style>
+	body{     
+        background:#000000;
+        font-family:Calibri, Tahoma, Arial}
+    .header{
+      grid-area: header;
+      background-color:rgb(33, 93, 104);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .footer{
+      grid-area: footer;
+      background-color: #000000;
+      color:#40E0D0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+    .description a{
+      font-family:'Langar', sans-serif;
+      color:chartreuse;
+      font-size: 3rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .header-links a{
+      background:transparent;
+      position:relative;
+      float:none;
+      text-align: center;
+      font-size: smaller;
+      margin: 1.2rem;
+      padding: 0.8rem;
+    }
+    .header-links a:hover{
+      color:#ff8000;
+    }
+    a{
+      color:#40E0D0;
+      background-color: transparent;
+      text-decoration: none;
+      max-width: 50rem;
+      max-height: 50rem;
+      
+    }
+    a:hover{
+      color:#ff8000
+    }
+	.TabControl{ 
+       width:100%; 
+       overflow:hidden; 
+       height:600px;
+    }
+	.TabControl #header{
+         width:100%; 
+         border: solid 1px; 
+         overflow:hidden; 
+         cursor:hand;
+    }
+	.TabControl #content{
+        width:100%;
+        border: solid 1px;
+        overflow:hidden; 
+        height:100%;
+    }
+	.TabControl .abas{
+        display:inline;
+    }
+	.TabControl .abas li{
+        float:left
+    }
+	.aba{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic,bold;
+        color: aqua;
+        width:250px; 
+        height:50px; 
+        border:solid 1px; 
+        border-radius:8px 8px 0 0;
+        text-align:center; 
+        padding-top:5px; 
+        background:#000000;
+    }
+	.ativa{
+        width:250px; 
+        height:50px;
+        border:solid 1 px;
+        border-radius:5px 5px 0 0;
+        text-align:center; 
+        padding-top:5px;
+        background:transparent;
+    }
+	.ativa span, .selected span{
+        background-color:transparent;
+        color:rgb(250, 14, 179);
+    }
+	.TabControl #content{
+
+        background:transparent;
+       
+    }
+	.TabControl .conteudo{
+        display: inline;
+        height: 100%;
+        background:transparent;
+        display:none;
+        color:white;
+    }
+	.selected{
+        width:250px; 
+        height:50px; 
+        border:solid 1 px; 
+        border-radius:5px 5px 0 0;
+        text-align:center;
+        padding-top:5px;
+    } 
+</style>
+
+<!--JavaScript-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+     	$(document).ready(function(){
+     		$("#content div:nth-child(1)").show();
+     		$(".abas li:first div").addClass("selected");
+     		$(".aba").click(function(){
+     			$(".aba").removeClass("selected");
+     			$(this).addClass("selected");
+     			var indice = $(this).parent().index();
+     			indice++;
+     			$("#content div").hide();
+     			$("#content div:nth-child("+indice+")").show();
+     		});
+    
+     		$(".aba").hover(
+     			function(){$(this).addClass("ativa")},
+     			function(){$(this).removeClass("ativa")}
+             );
+             
+
+             $(".aba").hover(
+                function(){$(this).css('background', 'aqua')},/*mouse em cima*/
+                function(){$(this).css('background', 'black')}/*tira o mouse*/
+             );
+    	});
+</script>
+</html>
+
